@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt
+name: openwrt-22.03-luci18.06
 
 on:
   repository_dispatch:
