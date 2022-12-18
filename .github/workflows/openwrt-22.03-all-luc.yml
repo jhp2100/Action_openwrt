@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: openwrt-22.03--iwlwifi-mtk
+name: openwrt-22.03-all-luc
 
 on:
   repository_dispatch:
@@ -23,7 +23,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: openwrt-22.03
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: openwrt-iwlwifi-mtk.config
+  CONFIG_FILE: all.config
   WIFI_CONF: mac80211.sh
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
